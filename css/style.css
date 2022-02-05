@@ -39,9 +39,17 @@ h2{
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	font-weight: bold;
 }
+h3{
+	font-size: 1.5em;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h4{
+	font-size: 22px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 
 /*Improve the spacing for paragraphs AND headings*/
-p, h1, h2 {
+p, h1, h2, h3, h4 {
     padding: 10px;
 }
 
@@ -63,7 +71,15 @@ nav li{
 	display: inline-block;
 	width: 20%;
 }
+main ul{
+	list-style-position: inside;
+	list-style-type: disc;
+}
 
+main li{
+	padding-left: 30px;
+	padding-bottom: 5px;
+}
 
 
 /*Added this so the links stay the same color*/
